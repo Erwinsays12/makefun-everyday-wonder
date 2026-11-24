@@ -11,11 +11,13 @@ Entry for the make.fun competition [Everyday Wonder, Two Days to Find the Line](
 `main.ts` writes one sentence — a small moment of wonder in everyday life —
 to `/output/entry.txt`:
 
-> My cracked phone screen catches the sunset, and for one red light the spiderweb in the glass turns to gold.
+> My cracked phone screen catches the sunset, and for one red light the spiderweb in the glass is spun from gold.
 
 The sentence is fixed and hand-written. The program is fully deterministic:
 no clock, no network, no randomness, so every run produces exactly the same
-107-character output, well inside the competition's 200-character limit.
+111-character output, well inside the competition's 200-character limit.
+Before writing, the program checks the gate itself (1–200 characters, not
+only white space) and refuses to write an invalid entry.
 
 ## Run it
 
